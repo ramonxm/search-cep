@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+    background: #6D2BD8;
+    color: #dadce7;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-content: center;
+
+}
+
+.logo {
+    margin-bottom: 5rem;
+    display: grid;
+    justify-content: center;
+}
+
+.app {
+    background: #FFF6FF;
+    border-radius: 0.4rem;
+    padding: 1.5rem 0rem;
+    box-shadow: 2px 8px 11px rgba(0, 0, 0, 0.2);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+
+}
+
+form input {
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 100;
+    color: #1F1926;
+    width: 120px;
+    outline: none;
+    padding: 0;
+    background: #FFF6FF;
+}
+
+
+form input::placeholder {
+    color: #1F1926;
+    background: #FFF6FF;
+}
+
+form button {
+    padding: 0.5rem 1rem;
+    background: #429BBD;
+    color: #DFEDF4;
+    border-radius: 5rem;
+    border: none;
+    width: max-content;
+    font-size: 1.1rem;
+    outline: none;
+    cursor: pointer;
+}
+
+button:hover{
+    background:#0065FF ;
+}
+
+main {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    transition: all 1s;
+}
+
+p:nth-child(1){
+    padding-top: 1rem;
+}
+
+p {
+    color: #1F1926;
+    font-size: 1.1rem;
+    margin: 0.6rem 0;
+}
