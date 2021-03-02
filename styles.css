@@ -44,7 +44,12 @@ form input {
     font-size: 1.3rem;
     font-weight: 100;
     color: #1F1926;
-    width: 120px;
+    width: 190px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    height: 5vh;
     outline: none;
     padding: 0;
     background: #FFF6FF;
@@ -53,7 +58,8 @@ form input {
 
 form input::placeholder {
     color: #1F1926;
-    background: #FFF6FF;
+    background: #f1f1f1;
+    border-radius: 0.5rem;
 }
 
 form button {
