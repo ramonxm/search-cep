@@ -1,7 +1,9 @@
 <h1 align="center"> SearchMyCep </h1>
+<p align="center">
+<img src="./searchmycep.png" width="400px" height="400px">
+</p>
 
-
-## Projeto
+## 🔥 Projeto
 
 Projeto consumindo API da ViaCep utilizando axios.
 
